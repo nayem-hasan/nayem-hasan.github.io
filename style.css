@@ -1,3 +1,14 @@
 body {
     font-size: 15pt;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.header{
+  background: #96CCFF;
+  color: #302053;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  
 }
