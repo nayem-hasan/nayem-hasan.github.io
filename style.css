@@ -1,6 +1,5 @@
 body {
     font-size: 15pt;
-    box-sizing: border-box;
     margin: 0;
     
 }
@@ -13,24 +12,24 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 p {
-  padding-left: 20px;
-  padding-right: 20px;
+  color:#3B4074;
+  text-shadow: 2px 2px 2px #9CFFF9;
+  padding: 25px 15px 10px 15px;
+  margin: 0;
   
 }
 .list {
-  padding-left: 20px;
-  color: #05A99F;
-  text-shadow: 1px 3px 3px #23B83C
+  padding-left: 15px;
+  color: blueviolet;
+  text-shadow: 2px 2px 4px black;
   
 }
 footer {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18pt;
   text-align: center;
-  padding: 20px;
-  color: #1F298D;
-  background-color: lightblue;
-}
-p {
-  color:#3B4074;
-  text-shadow: 2px 2px 2px #9CFFF9;
+  padding: 10px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: #96CCFF;
 }
