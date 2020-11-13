@@ -6,13 +6,23 @@ body {
 }
 .header{
   background: #96CCFF;
-  color: #302053;
+  color: whitesmoke;
   padding: 10px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
+}
+p {
+  padding-left: 20px;
+  padding-right: 20px;
   
 }
-p.1 {
-  padding: 2px;
-  margin: 1;
+.list {
+  padding-left: 20px;
+  color: blueviolet;
+  
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: green;
 }
