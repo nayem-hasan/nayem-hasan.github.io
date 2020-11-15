@@ -6,20 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nayem code ground/Raw html</title>
     <style>
-    * {
-      margin: 0;
-    }
-      body {
+    
+      body { 
+        background-color: #DCEAEB;
+        margin: 0;
+      
 
       }
       #head {
         font-family: 'Times New Roman', Times, serif;
         font-size: 50px;
-        background-image: linear-gradient(to right, #271599, #761F77 );
-        color: #E7E7E7;
+        background-image: linear-gradient(to bottom, #1BD0DB, #D0E7E8 );
+        color: #FBFFFF;
+        text-shadow: 4px 2px 4px #000000;
         text-align: center;
         padding: 15px;
-        
+      }
+      
+      .bigtext {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20pt;
+        font-weight: ;
+        color: #737D80
+      }
+      .contents {
+        padding: 5px;
+        margin: 10px;
+        box-sizing: border-box;
+        border: 1px solid #FFFFFF;
+      }
+      h3 {
+        color: #8A0355;
+        text-align: center;
+        text-shadow: 1px 1px 2px #47323F;
+      }
+      p {
+        color: #C1F0FF;
+        text-shadow: 1px 1px 2px #000000;
       }
       
       
@@ -33,10 +56,13 @@
   <header id="head" class="heading">
     Nayem's code ground
   </header>
-  <h1>This is actually how it looks using only html</h1>
-  <h2>No css file , no java script</h2>
-  <p>Just some text, some input, some button, some text area. thats all</p>
-  <p>You see?</p>
+  <div class="contents">
+  <div id="first"class="bigtext">
+      This is how it looks like after adding some Css style.
+  </div>
+  <h3>"Html+Css , no java script"</h3>
+  <p>Just some text, some input, some     button, some text area.</p>
+  <h5>You see?</h5>
   <p>This is a text area</p>
   <textarea></textarea>
   <p>This is input</p>
@@ -49,8 +75,9 @@
   <p>Thsi is a audio file</p>
   <audio src="media files/joker.mp3" controls>audio</audio>
   <p>This is a video file</p>
-  <video src="media files/swimming.mp4" controls width="200px" height="300px"></video><br />
+  <video src="media files/swimming.mp4" controls width="200px" height="300px"></video>
   
+  </div>
 </body>
 
 </html>
