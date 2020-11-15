@@ -33,3 +33,17 @@ footer {
   text-shadow: 2px 2px 4px #000000;
   background-color: #96CCFF;
 }
+#nextpage {
+  color:#3B4074;
+  text-shadow: 2px 2px 2px #9CFFF9;
+  padding: 25px 15px 10px 15px;
+  margin: 0;
+}
+#here {
+  text-decoration: none;
+  color: #ED0303;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px;
+  
+}
