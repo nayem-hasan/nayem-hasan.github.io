@@ -2,160 +2,121 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nayem's code ground/html+css</title>
-    <style>
-    
-      body 
-       { 
-          background-color: #DCEAEB;
-          margin: 0; 
-       }
-        
-      #head 
-       { 
-          text-align: center;
-          padding: 15px;
-          font-family: 'Times New Roman', Times, serif;
-          font-size: 50px;
-          background-image: 
-            linear-gradient(to 
-            bottom, #1BD0DB,
-            #D0E7E8 );
-          color: #FBFFFF;
-          text-shadow: 4px 2px 
-          4px #000000; 
-       }
-       
-      .contents 
-       {
-          padding: 5px;
-          margin: 10px;
-          box-sizing: border-box;
-          border: 1px solid #FFFFFF;
-          font-size: 15pt;
-           color: #C1F0FF;
-          text-shadow: 1px 1px 2px
-            #000000;
-        }
-        
-      h3 
-       {
-          color: #8A0355;
-          text-align: center;
-          text-shadow: 1px 1px 2px #47323F;
-       }
-       
-      textarea 
-       {
-          width: 250px;
-          height: 150px;
-          padding: 10px;
-          border: 1px solid #FFA2E2;
-       }
-       
-      input 
-       {
-          border: 1px solid #FFA2E2;
-          width: 250px;
-          height: 25px;
-          padding: 2px 10px;
-          font-size: 15px;
-       }
-      button 
-       {
-          width: 100px;
-          height: 45px;
-          border-radius: 15px;
-          background-color: #9B088B;
-          color: ghostwhite;
-          font-size: 15pt;
-        }
-        
-      #link
-       { 
-          text-decoration: none;
-          margin-left: 10px;
-          background-color: #9B088B;
-          color: white;
-          padding: 6px;
-          font-size: 14pt;
-          border-radius: 5px;
-        }
-        
-      .media
-       {
-          max-width: 60%;
-          height:auto;
-       }
-       
-      footer
-       {
-          background-image:linear-gradient(to top, #1BD0DB, #D0E7E8);
-          text-align: center;
-          padding: 20px;
-          font-family: 'Times New Roman', Times, serif;
-          font-size: 40pt;
-          text-shadow: 4px 4px 6px #000000;
-       }
-       
-    </style>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nayem's code ground/html+css</title>
+  <style>
+    body {
+      background-color: #DCEAEB;
+      margin: 0;
+    }
+
+    #head {
+      text-align: center;
+      padding: 15px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      background-image:
+        linear-gradient(to bottom, #1BD0DB,
+          #D0E7E8);
+      color: #FBFFFF;
+      text-shadow: 4px 2px 4px #000000;
+    }
+
+    .contents {
+      padding: 5px;
+      margin: 10px;
+      box-sizing: border-box;
+      border: 1px solid #FFFFFF;
+      font-size: 15pt;
+      color: #C1F0FF;
+      text-shadow: 1px 1px 2px #000000;
+    }
+
+    h3 {
+      color: #8A0355;
+      text-align: center;
+      text-shadow: 1px 1px 2px #47323F;
+    }
+
+    textarea {
+      width: 250px;
+      height: 150px;
+      padding: 10px;
+      border: 1px solid #FFA2E2;
+    }
+
+    input {
+      border: 1px solid #FFA2E2;
+      width: 250px;
+      height: 25px;
+      padding: 2px 10px;
+      font-size: 15px;
+    }
+
+    button {
+      width: 100px;
+      height: 45px;
+      border-radius: 15px;
+      background-color: #9B088B;
+      color: ghostwhite;
+      font-size: 15pt;
+    }
+
+    #link {
+      text-decoration: none;
+      margin-left: 10px;
+      background-color: #9B088B;
+      color: white;
+      padding: 6px;
+      font-size: 14pt;
+      border-radius: 5px;
+    }
+
+    .media {
+      max-width: 60%;
+      height: auto;
+    }
+
+    footer {
+      background-image: linear-gradient(to top, #1BD0DB, #D0E7E8);
+      text-align: center;
+      padding: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 40pt;
+      text-shadow: 4px 4px 6px #000000;
+    }
+  </style>
 </head>
 
 <body>
-  
   <header id="head">
     Nayem's code ground
   </header>
-  
   <div class="contents">
     <div>
-       This is how it looks like after adding some Css style.
+      This is how it looks like after adding some Css style.
     </div>
-    
     <h3>"Html+Css , no java script"</h3>
-    
-    <p>Just some text, some input, some     button, some text area.</p>
-    
-    
+    <p>Just some text, some input, some button, some text area.</p>
     <p>This is a text area</p>
-    
     <textarea placeholder="Write something"></textarea>
-    
     <p>This is input</p>
-    
-    <input type="text" placeholder="Your name/or age"/>
-    
+    <input type="text" placeholder="Your name/or age" />
     <p>This is a button</p>
-    
     <button type="submit">Button</button>
-    
     <a id="link" href="#">This is a link</a>
-    
     <p>This is a image</p>
-    
     <img class="media" src="tree.jpg" alt="img" />
-    
     <p>This is a video file</p>
-  
     <video class="media" src="swimming.mp4" controls poster="swimming.jpg"></video>
-    
     <p>Thsi is a audio file</p>
-  
-    <audio  src="joker.mp3" controls>audio</audio>
-    
+    <audio src="joker.mp3" controls>audio</audio>
     <div style="padding: 20px 10px; color: black; text-shadow: 4px 4px 4px #000000; font-size: 40pt; text-align: center; font-weight: bold; font-family: 'Times New Roman', Times, serif;">So that's all for now. Click next to continue.</div>
-  
   </div>
-  
   <footer>
-    
-    <a style="text-decoration: none; color: whitesmoke;"class="link" href="fourth.html">Next</a>
-    
+    <a style="text-decoration: none; color: whitesmoke;" class="link" href="fourth.html">Next</a>
   </footer>
-  
 </body>
 
 </html>

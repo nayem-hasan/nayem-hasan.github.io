@@ -1,9 +1,10 @@
 body {
-    font-size: 15pt;
-    margin: 0;
-    
+  font-size: 15pt;
+  margin: 0;
+
 }
-.header{
+
+.header {
   background: #96CCFF;
   color: whitesmoke;
   text-shadow: 5px 5px 10px #000000;
@@ -11,19 +12,22 @@ body {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
+
 p {
-  color:#3B4074;
+  color: #3B4074;
   text-shadow: 2px 2px 2px #9CFFF9;
   padding: 25px 15px 10px 15px;
   margin: 0;
-  
+
 }
+
 .list {
   padding-left: 15px;
   color: blueviolet;
   text-shadow: 2px 2px 4px black;
-  
+
 }
+
 footer {
   font-family: 'Times New Roman', Times, serif;
   font-size: 18pt;
@@ -33,17 +37,19 @@ footer {
   text-shadow: 2px 2px 4px #000000;
   background-color: #96CCFF;
 }
+
 #nextpage {
-  color:#3B4074;
+  color: #3B4074;
   text-shadow: 2px 2px 2px #9CFFF9;
   padding: 25px 15px 10px 15px;
   margin: 0;
 }
+
 #here {
   text-decoration: none;
   color: #ED0303;
   border: 1px solid black;
   border-radius: 4px;
   padding: 2px;
-  
+
 }
